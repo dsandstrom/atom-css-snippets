@@ -1,0 +1,79 @@
+'.source.css, .source.scss, .source.css.scss, .source.less':
+  'position':
+    'prefix': 'pos'
+    'body': 'position: ${1:relative};$0'
+  'position relative':
+    'prefix': 'posr'
+    'body': 'position: relative;$0'
+  'position absolute':
+    'prefix': 'posa'
+    'body': 'position: absolute;$0'
+  'position fixed':
+    'prefix': 'posf'
+    'body': 'position: fixed;$0'
+  'top':
+    'prefix': 'top'
+    'body': 'top: ${1:0};$0'
+  'left':
+    'prefix': 'left'
+    'body': 'left: ${1:0};$0'
+  'right':
+    'prefix': 'right'
+    'body': 'right: ${1:0};$0'
+  'bottom':
+    'prefix': 'bottom'
+    'body': 'bottom: ${1:0};$0'
+  'background':
+    'prefix': 'bg'
+    'body': 'background: ${1:#${2:ffffff}};$0'
+  'color':
+    'prefix': 'col'
+    'body': 'color: ${1:#${2:000000}};$0'
+  'vertical-align':
+    'prefix': 'va'
+    'body': 'vertical-align: ${1:middle};$0'
+  'vertical-align: top':
+    'prefix': 'vat'
+    'body': 'vertical-align: top;$0'
+  'vertical-align: bottom':
+    'prefix': 'vab'
+    'body': 'vertical-align: bottom;$0'
+  'line-height':
+    'prefix': 'lh'
+    'body': 'line-height: ${1:${2:1}em};$0'
+  'text-align':
+    'prefix': 'ta'
+    'body': 'text-align: ${1:center};$0'
+  'text-align: center':
+    'prefix': 'tac'
+    'body': 'text-align: center;$0'
+  'text-align: left':
+    'prefix': 'tal'
+    'body': 'text-align: left;$0'
+  'text-align: right':
+    'prefix': 'tar'
+    'body': 'text-align: right;$0'
+  'display':
+    'prefix': 'dis'
+    'body': 'display: ${1:none};$0'
+  'display: none':
+    'prefix': 'disn'
+    'body': 'display: none;$0'
+  'display: block':
+    'prefix': 'disb'
+    'body': 'display: block;$0'
+  'display: inline-block':
+    'prefix': 'disi'
+    'body': 'display: inline-block;$0'
+  'font-style':
+    'prefix': 'fos'
+    'body': 'font-style: ${1:italic};$0'
+  'font-style: italic':
+    'prefix': 'fosi'
+    'body': 'font-style: italic;$0'
+  'font-style: normal':
+    'prefix': 'fosn'
+    'body': 'font-style: normal;$0'
+  'font-style: bold':
+    'prefix': 'fosb'
+    'body': 'font-style: bold;$0'
