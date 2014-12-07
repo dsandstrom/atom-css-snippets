@@ -2,7 +2,7 @@
   "name": "css-snippets",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "CSS, SCSS, SASS, and Less Snippets",
+  "description": "CSS, SCSS, Sass, and Less Snippets",
   "activationCommands": {},
   "repository": "https://github.com/dsandstrom/atom-css-snippets",
   "license": "MIT",
