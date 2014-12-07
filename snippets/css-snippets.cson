@@ -1,46 +1,130 @@
 '.source.css, .source.scss, .source.css.scss, .source.less':
+  'background':
+    'prefix': 'bg'
+    'body': 'background: ${1:#${2:ffffff}};$0'
+  'background-color':
+    'prefix': 'bgc'
+    'body': 'background-color: ${1:#${2:ffffff}};$0'
+  'bottom':
+    'prefix': 'bottom'
+    'body': 'bottom: ${1:0};$0'
+  'color':
+    'prefix': 'col'
+    'body': 'color: ${1:#${2:000000}};$0'
+  'cursor':
+    'prefix': 'cur'
+    'body': 'cursor: ${1:pointer};$0'
+  'cursor: pointer':
+    'prefix': 'curp'
+    'body': 'cursor: pointer;$0'
+  'cursor: default':
+    'prefix': 'curd'
+    'body': 'cursor: default;$0'
+  'cursor: inherit':
+    'prefix': 'curi'
+    'body': 'cursor: inherit;$0'
+  'display':
+    'prefix': 'dis'
+    'body': 'display: ${1:none};$0'
+  'display: block':
+    'prefix': 'disb'
+    'body': 'display: block;$0'
+  'display: inline-block':
+    'prefix': 'disi'
+    'body': 'display: inline-block;$0'
+  'display: none':
+    'prefix': 'disn'
+    'body': 'display: none;$0'
+  'float':
+    'prefix': 'fl'
+    'body': 'float: ${1:left};$0'
+  'float: left':
+    'prefix': 'fll'
+    'body': 'float: left;$0'
+  'float: right':
+    'prefix': 'flr'
+    'body': 'float: right;$0'
+  'font-family':
+    'prefix': 'ff'
+    'body': 'font-family: ${1:arial};$0'
+  'font-style':
+    'prefix': 'fs'
+    'body': 'font-style: ${1:italic};$0'
+  'font-style: italic':
+    'prefix': 'fsi'
+    'body': 'font-style: italic;$0'
+  'font-style: normal':
+    'prefix': 'fsn'
+    'body': 'font-style: normal;$0'
+  'font-style: bold':
+    'prefix': 'fsb'
+    'body': 'font-style: bold;$0'
+  'left':
+    'prefix': 'left'
+    'body': 'left: ${1:0};$0'
+  'line-height':
+    'prefix': 'lh'
+    'body': 'line-height: ${1:${2:1}em};$0'
+  'margin':
+    'prefix': 'mar'
+    'body': 'margin: ${2:${1:1}px};$0'
+  'margin-bottom':
+    'prefix': 'marb'
+    'body': 'margin-bottom: ${2:${1:1}px};$0'
+  'margin-left':
+    'prefix': 'marl'
+    'body': 'margin-left: ${2:${1:1}px};$0'
+  'margin-right':
+    'prefix': 'marr'
+    'body': 'margin-right: ${2:${1:1}px};$0'
+  'margin-top':
+    'prefix': 'mart'
+    'body': 'margin-top: ${2:${1:1}px};$0'
+  'overflow':
+    'prefix': 'ov'
+    'body': 'overflow: ${1:hidden};$0'
+  'overflow: auto':
+    'prefix': 'ova'
+    'body': 'overflow: auto;$0'
+  'overflow: hidden':
+    'prefix': 'ovh'
+    'body': 'overflow: hidden;$0'
+  'overflow: scroll':
+    'prefix': 'ovs'
+    'body': 'overflow: scroll;$0'
+  'overflow: visible':
+    'prefix': 'ovv'
+    'body': 'overflow: visible;$0'
+  'padding':
+    'prefix': 'pad'
+    'body': 'padding: ${2:${1:1}px};$0'
+  'padding-bottom':
+    'prefix': 'padb'
+    'body': 'padding-bottom: ${2:${1:1}px};$0'
+  'padding-left':
+    'prefix': 'padl'
+    'body': 'padding-left: ${2:${1:1}px};$0'
+  'padding-right':
+    'prefix': 'padr'
+    'body': 'padding-right: ${2:${1:1}px};$0'
+  'padding-top':
+    'prefix': 'padt'
+    'body': 'padding-top: ${2:${1:1}px};$0'
   'position':
     'prefix': 'pos'
     'body': 'position: ${1:relative};$0'
-  'position relative':
-    'prefix': 'posr'
-    'body': 'position: relative;$0'
   'position absolute':
     'prefix': 'posa'
     'body': 'position: absolute;$0'
   'position fixed':
     'prefix': 'posf'
     'body': 'position: fixed;$0'
-  'top':
-    'prefix': 'top'
-    'body': 'top: ${1:0};$0'
-  'left':
-    'prefix': 'left'
-    'body': 'left: ${1:0};$0'
+  'position relative':
+    'prefix': 'posr'
+    'body': 'position: relative;$0'
   'right':
     'prefix': 'right'
     'body': 'right: ${1:0};$0'
-  'bottom':
-    'prefix': 'bottom'
-    'body': 'bottom: ${1:0};$0'
-  'background':
-    'prefix': 'bg'
-    'body': 'background: ${1:#${2:ffffff}};$0'
-  'color':
-    'prefix': 'col'
-    'body': 'color: ${1:#${2:000000}};$0'
-  'vertical-align':
-    'prefix': 'va'
-    'body': 'vertical-align: ${1:middle};$0'
-  'vertical-align: top':
-    'prefix': 'vat'
-    'body': 'vertical-align: top;$0'
-  'vertical-align: bottom':
-    'prefix': 'vab'
-    'body': 'vertical-align: bottom;$0'
-  'line-height':
-    'prefix': 'lh'
-    'body': 'line-height: ${1:${2:1}em};$0'
   'text-align':
     'prefix': 'ta'
     'body': 'text-align: ${1:center};$0'
@@ -53,27 +137,27 @@
   'text-align: right':
     'prefix': 'tar'
     'body': 'text-align: right;$0'
-  'display':
-    'prefix': 'dis'
-    'body': 'display: ${1:none};$0'
-  'display: none':
-    'prefix': 'disn'
-    'body': 'display: none;$0'
-  'display: block':
-    'prefix': 'disb'
-    'body': 'display: block;$0'
-  'display: inline-block':
-    'prefix': 'disi'
-    'body': 'display: inline-block;$0'
-  'font-style':
-    'prefix': 'fos'
-    'body': 'font-style: ${1:italic};$0'
-  'font-style: italic':
-    'prefix': 'fosi'
-    'body': 'font-style: italic;$0'
-  'font-style: normal':
-    'prefix': 'fosn'
-    'body': 'font-style: normal;$0'
-  'font-style: bold':
-    'prefix': 'fosb'
-    'body': 'font-style: bold;$0'
+  'top':
+    'prefix': 'top'
+    'body': 'top: ${1:0};$0'
+  'vertical-align':
+    'prefix': 'va'
+    'body': 'vertical-align: ${1:middle};$0'
+  'vertical-align: bottom':
+    'prefix': 'vab'
+    'body': 'vertical-align: bottom;$0'
+  'vertical-align: top':
+    'prefix': 'vat'
+    'body': 'vertical-align: top;$0'
+  'whitespace':
+    'prefix': 'ws'
+    'body': 'whitespace: ${1:nowrap};$0'
+  'whitespace: nowrap':
+    'prefix': 'wsn'
+    'body': 'whitespace: nowrap;$0'
+  'whitespace: normal':
+    'prefix': 'wsnor'
+    'body': 'whitespace: normal;$0'
+  'whitespace: pre':
+    'prefix': 'wsp'
+    'body': 'whitespace: pre;$0'
