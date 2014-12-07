@@ -50,9 +50,48 @@
   'background-repeat: no-repeat':
     'prefix': 'brn'
     'body': 'background-repeat: no-repeat;$0'
+  'border':
+    'prefix': 'bor'
+    'body': 'border: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+  'border-color':
+    'prefix': 'borc'
+    'body': 'border-color: ${2:#${1:000}};$0'
+  'border-style':
+    'prefix': 'bors'
+    'body': 'border-style: ${3:solid};$0'
+  'border-width':
+    'prefix': 'borw'
+    'body': 'border-width: ${2:${1:1}px};$0'
+  'border-bottom':
+    'prefix': 'borb'
+    'body': 'border-bottom: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+  'border-bottom-width':
+    'prefix': 'borbw'
+    'body': 'border-bottom-width: ${2:${1:1}px};$0'
+  'border-left':
+    'prefix': 'borl'
+    'body': 'border-left: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+  'border-left-width':
+    'prefix': 'borlw'
+    'body': 'border-left-width: ${2:${1:1}px};$0'
+  'border-right':
+    'prefix': 'borr'
+    'body': 'border-right: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+  'border-right-width':
+    'prefix': 'borrw'
+    'body': 'border-right-width: ${2:${1:1}px};$0'
+  'border-top':
+    'prefix': 'bort'
+    'body': 'border-top: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+  'border-top-width':
+    'prefix': 'bortw'
+    'body': 'border-top-width: ${2:${1:1}px};$0'
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0};$0'
+  'clear':
+    'prefix': 'clr'
+    'body': 'clear: ${1:both};$0'
   'color':
     'prefix': 'col'
     'body': 'color: ${1:#${2:000000}};$0'
