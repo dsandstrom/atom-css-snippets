@@ -254,6 +254,9 @@
   'position relative':
     'prefix': 'posr'
     'body': 'position: relative;$0'
+  'position static':
+    'prefix': 'poss'
+    'body': 'position: static;$0'
   'right':
     'prefix': 'ri'
     'body': 'right: ${1:0};$0'
