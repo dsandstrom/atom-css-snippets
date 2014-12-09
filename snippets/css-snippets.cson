@@ -311,6 +311,9 @@
   'whitespace':
     'prefix': 'ws'
     'body': 'whitespace: ${1:nowrap};$0'
+  'width':
+    'prefix': 'wid'
+    'body': 'width: ${2:${1:1}px};$0'
   'whitespace: nowrap':
     'prefix': 'wsn'
     'body': 'whitespace: nowrap;$0'
