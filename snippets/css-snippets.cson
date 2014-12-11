@@ -12,28 +12,28 @@
     'prefix': 'bgia'
     'body': 'background-image: ${2:asset-url(\'${1:background.jpg}\')};$0'
   'background-position':
-    'prefix': 'br'
+    'prefix': 'bp'
     'body': 'background-position: ${1:left top};$0'
   'background-position: center bottom':
-    'prefix': 'brcb'
+    'prefix': 'bpcb'
     'body': 'background-position: center bottom;$0'
   'background-position: center center':
-    'prefix': 'brc'
+    'prefix': 'bpc'
     'body': 'background-position: center center;$0'
   'background-position: center top':
-    'prefix': 'brct'
+    'prefix': 'bpct'
     'body': 'background-position: center top;$0'
   'background-position: left bottom':
-    'prefix': 'brlb'
+    'prefix': 'bplb'
     'body': 'background-position: left bottom;$0'
   'background-position: left top':
-    'prefix': 'brlt'
+    'prefix': 'bplt'
     'body': 'background-position: left top;$0'
   'background-position: right bottom':
-    'prefix': 'brrb'
+    'prefix': 'bprb'
     'body': 'background-position: right bottom;$0'
   'background-position: right top':
-    'prefix': 'brrt'
+    'prefix': 'bprt'
     'body': 'background-position: right top;$0'
   'background-repeat':
     'prefix': 'br'
@@ -344,28 +344,28 @@
     'prefix': 'bgia'
     'body': 'background-image: ${2:asset-url(\'${1:background.jpg}\')}$0'
   'background-position':
-    'prefix': 'br'
+    'prefix': 'bp'
     'body': 'background-position: ${1:left top}$0'
   'background-position: center bottom':
-    'prefix': 'brcb'
+    'prefix': 'bpcb'
     'body': 'background-position: center bottom$0'
   'background-position: center center':
-    'prefix': 'brc'
+    'prefix': 'bpc'
     'body': 'background-position: center center$0'
   'background-position: center top':
-    'prefix': 'brct'
+    'prefix': 'bpct'
     'body': 'background-position: center top$0'
   'background-position: left bottom':
-    'prefix': 'brlb'
+    'prefix': 'bplb'
     'body': 'background-position: left bottom$0'
   'background-position: left top':
-    'prefix': 'brlt'
+    'prefix': 'bplt'
     'body': 'background-position: left top$0'
   'background-position: right bottom':
-    'prefix': 'brrb'
+    'prefix': 'bprb'
     'body': 'background-position: right bottom$0'
   'background-position: right top':
-    'prefix': 'brrt'
+    'prefix': 'bprt'
     'body': 'background-position: right top$0'
   'background-repeat':
     'prefix': 'br'
