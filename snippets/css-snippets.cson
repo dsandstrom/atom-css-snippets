@@ -161,6 +161,9 @@
   'font-weight: normal':
     'prefix': 'fwb'
     'body': 'font-weight: normal;$0'
+  'height':
+    'prefix': 'he'
+    'body': 'height: ${2:${1:1}px};$0'
   'list-style':
     'prefix': 'lis'
     'body': 'list-style: ${1:square} ${2:inside} ${4:url(\'${3:list.png}\')};$0'
@@ -311,9 +314,6 @@
   'whitespace':
     'prefix': 'ws'
     'body': 'whitespace: ${1:nowrap};$0'
-  'width':
-    'prefix': 'wid'
-    'body': 'width: ${2:${1:1}px};$0'
   'whitespace: nowrap':
     'prefix': 'wsn'
     'body': 'whitespace: nowrap;$0'
@@ -323,6 +323,9 @@
   'whitespace: pre':
     'prefix': 'wsp'
     'body': 'whitespace: pre;$0'
+  'width':
+    'prefix': 'wid'
+    'body': 'width: ${2:${1:1}px};$0'
   'z-index':
     'prefix': 'zi'
     'body': 'z-index: ${1:1};$0'
@@ -490,6 +493,9 @@
   'font-weight: normal':
     'prefix': 'fwb'
     'body': 'font-weight: normal$0'
+  'height':
+    'prefix': 'he'
+    'body': 'height: ${2:${1:1}px}$0'
   'list-style':
     'prefix': 'lis'
     'body': 'list-style: ${1:square} ${2:inside} ${4:url(\'${3:list.png}\')}$0'
@@ -583,6 +589,9 @@
   'position relative':
     'prefix': 'posr'
     'body': 'position: relative$0'
+  'position static':
+    'prefix': 'poss'
+    'body': 'position: static$0'
   'right':
     'prefix': 'ri'
     'body': 'right: ${1:0}$0'
@@ -646,6 +655,9 @@
   'whitespace: pre':
     'prefix': 'wsp'
     'body': 'whitespace: pre$0'
+  'width':
+    'prefix': 'wid'
+    'body': 'width: ${2:${1:1}px}$0'
   'z-index':
     'prefix': 'zi'
     'body': 'z-index: ${1:1}$0'
