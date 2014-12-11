@@ -1,4 +1,4 @@
-'.source.css, .source.scss, .source.css.scss, .source.less':
+'.source.css, .source.scss, .source.css.scss, .source.less, .source.css.less':
   'background':
     'prefix': 'bg'
     'body': 'background: ${1:#${2:ffffff}};$0'
