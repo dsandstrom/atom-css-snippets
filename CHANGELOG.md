@@ -1,7 +1,7 @@
 ## 0.3.0 - 12-21-14
 * Changed prefixes for background rules, they all now start with "bg"
 * Removed extra `background-postion` rules, probably not needed
-* Added `border-radius`
+* Added `border-radius` and `!important`
 * Fixed `white-space`
 
 ## 0.2.0 - 12-11-14
