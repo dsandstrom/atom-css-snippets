@@ -12,43 +12,22 @@
     'prefix': 'bgia'
     'body': 'background-image: ${2:asset-url(\'${1:background.jpg}\')}$0'
   'background-position':
-    'prefix': 'bp'
+    'prefix': 'bgp'
     'body': 'background-position: ${1:left top}$0'
-  'background-position: center bottom':
-    'prefix': 'bpcb'
-    'body': 'background-position: center bottom$0'
-  'background-position: center center':
-    'prefix': 'bpc'
-    'body': 'background-position: center center$0'
-  'background-position: center top':
-    'prefix': 'bpct'
-    'body': 'background-position: center top$0'
-  'background-position: left bottom':
-    'prefix': 'bplb'
-    'body': 'background-position: left bottom$0'
-  'background-position: left top':
-    'prefix': 'bplt'
-    'body': 'background-position: left top$0'
-  'background-position: right bottom':
-    'prefix': 'bprb'
-    'body': 'background-position: right bottom$0'
-  'background-position: right top':
-    'prefix': 'bprt'
-    'body': 'background-position: right top$0'
   'background-repeat':
-    'prefix': 'br'
+    'prefix': 'bgr'
     'body': 'background-repeat: ${1:repeat}$0'
   'background-repeat: repeat':
-    'prefix': 'brr'
+    'prefix': 'bgrr'
     'body': 'background-repeat: repeat$0'
   'background-repeat: repeat-x':
-    'prefix': 'brx'
+    'prefix': 'bgrx'
     'body': 'background-repeat: repeat-x$0'
   'background-repeat: repeat-y':
-    'prefix': 'bry'
+    'prefix': 'bgry'
     'body': 'background-repeat: repeat-y$0'
   'background-repeat: no-repeat':
-    'prefix': 'brn'
+    'prefix': 'bgrn'
     'body': 'background-repeat: no-repeat$0'
   'border':
     'prefix': 'bor'
@@ -344,43 +323,22 @@
     'prefix': 'bgia'
     'body': 'background-image: ${2:asset-url(\'${1:background.jpg}\')};$0'
   'background-position':
-    'prefix': 'bp'
+    'prefix': 'bgp'
     'body': 'background-position: ${1:left top};$0'
-  'background-position: center bottom':
-    'prefix': 'bpcb'
-    'body': 'background-position: center bottom;$0'
-  'background-position: center center':
-    'prefix': 'bpc'
-    'body': 'background-position: center center;$0'
-  'background-position: center top':
-    'prefix': 'bpct'
-    'body': 'background-position: center top;$0'
-  'background-position: left bottom':
-    'prefix': 'bplb'
-    'body': 'background-position: left bottom;$0'
-  'background-position: left top':
-    'prefix': 'bplt'
-    'body': 'background-position: left top;$0'
-  'background-position: right bottom':
-    'prefix': 'bprb'
-    'body': 'background-position: right bottom;$0'
-  'background-position: right top':
-    'prefix': 'bprt'
-    'body': 'background-position: right top;$0'
   'background-repeat':
-    'prefix': 'br'
+    'prefix': 'bgr'
     'body': 'background-repeat: ${1:repeat};$0'
   'background-repeat: repeat':
-    'prefix': 'brr'
+    'prefix': 'bgrr'
     'body': 'background-repeat: repeat;$0'
   'background-repeat: repeat-x':
-    'prefix': 'brx'
+    'prefix': 'bgrx'
     'body': 'background-repeat: repeat-x;$0'
   'background-repeat: repeat-y':
-    'prefix': 'bry'
+    'prefix': 'bgry'
     'body': 'background-repeat: repeat-y;$0'
   'background-repeat: no-repeat':
-    'prefix': 'brn'
+    'prefix': 'bgrn'
     'body': 'background-repeat: no-repeat;$0'
   'border':
     'prefix': 'bor'
