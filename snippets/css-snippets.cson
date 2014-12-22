@@ -65,6 +65,9 @@
   'border-top-width':
     'prefix': 'bortw'
     'body': 'border-top-width: ${2:${1:1}px}$0'
+  'border-radius':
+    'prefix': 'br'
+    'body': 'border-radius: ${2:${1:1}px}$0'
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0}$0'
@@ -376,6 +379,9 @@
   'border-top-width':
     'prefix': 'bortw'
     'body': 'border-top-width: ${2:${1:1}px};$0'
+  'border-radius':
+    'prefix': 'br'
+    'body': 'border-radius: ${2:${1:1}px};$0'
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0};$0'
