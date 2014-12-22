@@ -293,18 +293,18 @@
   'vertical-align: top':
     'prefix': 'vat'
     'body': 'vertical-align: top$0'
-  'whitespace':
+  'white-space':
     'prefix': 'ws'
-    'body': 'whitespace: ${1:nowrap}$0'
-  'whitespace: nowrap':
+    'body': 'white-space: ${1:nowrap}$0'
+  'white-space: nowrap':
     'prefix': 'wsn'
-    'body': 'whitespace: nowrap$0'
-  'whitespace: normal':
+    'body': 'white-space: nowrap$0'
+  'white-space: normal':
     'prefix': 'wsnor'
-    'body': 'whitespace: normal$0'
-  'whitespace: pre':
+    'body': 'white-space: normal$0'
+  'white-space: pre':
     'prefix': 'wsp'
-    'body': 'whitespace: pre$0'
+    'body': 'white-space: pre$0'
   'width':
     'prefix': 'wid'
     'body': 'width: ${2:${1:1}px}$0'
@@ -607,18 +607,18 @@
   'vertical-align: top':
     'prefix': 'vat'
     'body': 'vertical-align: top;$0'
-  'whitespace':
+  'white-space':
     'prefix': 'ws'
-    'body': 'whitespace: ${1:nowrap};$0'
-  'whitespace: nowrap':
+    'body': 'white-space: ${1:nowrap};$0'
+  'white-space: nowrap':
     'prefix': 'wsn'
-    'body': 'whitespace: nowrap;$0'
-  'whitespace: normal':
+    'body': 'white-space: nowrap;$0'
+  'white-space: normal':
     'prefix': 'wsnor'
-    'body': 'whitespace: normal;$0'
-  'whitespace: pre':
+    'body': 'white-space: normal;$0'
+  'white-space: pre':
     'prefix': 'wsp'
-    'body': 'whitespace: pre;$0'
+    'body': 'white-space: pre;$0'
   'width':
     'prefix': 'wid'
     'body': 'width: ${2:${1:1}px};$0'
