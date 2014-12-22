@@ -625,3 +625,8 @@
   'z-index':
     'prefix': 'zi'
     'body': 'z-index: ${1:1};$0'
+
+'.source.css, .source.scss, .source.css.scss, .source.less, .source.css.less, .source.sass, .source.css.sass':
+  '!important':
+    'prefix': '!'
+    'body': '!important$0'
