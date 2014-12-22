@@ -13,7 +13,7 @@
     'body': 'background-image: ${2:asset-url(\'${1:background.jpg}\')}$0'
   'background-position':
     'prefix': 'bgp'
-    'body': 'background-position: ${1:left top}$0'
+    'body': 'background-position: ${1:left} ${2:top}$0'
   'background-repeat':
     'prefix': 'bgr'
     'body': 'background-repeat: ${1:repeat}$0'
@@ -324,7 +324,7 @@
     'body': 'background-image: ${2:asset-url(\'${1:background.jpg}\')};$0'
   'background-position':
     'prefix': 'bgp'
-    'body': 'background-position: ${1:left top};$0'
+    'body': 'background-position: ${1:left} ${2:top};$0'
   'background-repeat':
     'prefix': 'bgr'
     'body': 'background-repeat: ${1:repeat};$0'
