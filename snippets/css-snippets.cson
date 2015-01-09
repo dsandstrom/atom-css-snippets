@@ -266,21 +266,21 @@
   'text-decoration: none':
     'prefix': 'tdn'
     'body': 'text-decoration: none$0'
-  'text-transformation':
+  'text-transform':
     'prefix': 'tt'
-    'body': 'text-transformation: ${1:uppercase}$0'
-  'text-transformation: capitalize':
+    'body': 'text-transform: ${1:uppercase}$0'
+  'text-transform: capitalize':
     'prefix': 'ttc'
-    'body': 'text-transformation: ${1:capitalize}$0'
-  'text-transformation: lowercase':
+    'body': 'text-transform: ${1:capitalize}$0'
+  'text-transform: lowercase':
     'prefix': 'ttl'
-    'body': 'text-transformation: ${1:lowercase}$0'
-  'text-transformation: none':
+    'body': 'text-transform: ${1:lowercase}$0'
+  'text-transform: none':
     'prefix': 'ttn'
-    'body': 'text-transformation: ${1:none}$0'
-  'text-transformation: uppercase':
+    'body': 'text-transform: ${1:none}$0'
+  'text-transform: uppercase':
     'prefix': 'ttu'
-    'body': 'text-transformation: ${1:uppercase}$0'
+    'body': 'text-transform: ${1:uppercase}$0'
   'top':
     'prefix': 'top'
     'body': 'top: ${1:0}$0'
@@ -580,21 +580,21 @@
   'text-decoration: none':
     'prefix': 'tdn'
     'body': 'text-decoration: none;$0'
-  'text-transformation':
+  'text-transform':
     'prefix': 'tt'
-    'body': 'text-transformation: ${1:uppercase};$0'
-  'text-transformation: capitalize':
+    'body': 'text-transform: ${1:uppercase};$0'
+  'text-transform: capitalize':
     'prefix': 'ttc'
-    'body': 'text-transformation: ${1:capitalize};$0'
-  'text-transformation: lowercase':
+    'body': 'text-transform: ${1:capitalize};$0'
+  'text-transform: lowercase':
     'prefix': 'ttl'
-    'body': 'text-transformation: ${1:lowercase};$0'
-  'text-transformation: none':
+    'body': 'text-transform: ${1:lowercase};$0'
+  'text-transform: none':
     'prefix': 'ttn'
-    'body': 'text-transformation: ${1:none};$0'
-  'text-transformation: uppercase':
+    'body': 'text-transform: ${1:none};$0'
+  'text-transform: uppercase':
     'prefix': 'ttu'
-    'body': 'text-transformation: ${1:uppercase};$0'
+    'body': 'text-transform: ${1:uppercase};$0'
   'top':
     'prefix': 'top'
     'body': 'top: ${1:0};$0'

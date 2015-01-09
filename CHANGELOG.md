@@ -1,3 +1,6 @@
+## 0.5.0 - 1-9-15
+* Fixed text-transform
+
 ## 0.4.0 - 12-21-14
 * Added `!important`
 
