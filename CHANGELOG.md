@@ -1,3 +1,8 @@
+## 0.6.0 - 4-14-15
+* Add vertical-align: middle, fill, width/height: auto, float: none
+* Make height's prefix more consistent
+* Move breakpoints around to support my workflow better
+
 ## 0.5.0 - 1-9-15
 * Fixed text-transform
 
