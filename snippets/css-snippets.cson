@@ -299,6 +299,9 @@
   'vertical-align: bottom':
     'prefix': 'vab'
     'body': 'vertical-align: bottom$0'
+  'vertical-align: middle':
+    'prefix': 'vam'
+    'body': 'vertical-align: middle$0'
   'vertical-align: top':
     'prefix': 'vat'
     'body': 'vertical-align: top$0'
@@ -625,6 +628,9 @@
   'vertical-align: bottom':
     'prefix': 'vab'
     'body': 'vertical-align: bottom;$0'
+  'vertical-align: middle':
+    'prefix': 'vam'
+    'body': 'vertical-align: middle;$0'
   'vertical-align: top':
     'prefix': 'vat'
     'body': 'vertical-align: top;$0'
