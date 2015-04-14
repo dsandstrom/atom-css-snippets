@@ -147,8 +147,11 @@
     'prefix': 'fwb'
     'body': 'font-weight: normal$0'
   'height':
-    'prefix': 'he'
+    'prefix': 'hei'
     'body': 'height: ${2:${1:1}px}$0'
+  'height: auto':
+    'prefix': 'heia'
+    'body': 'height: auto$0'
   'list-style':
     'prefix': 'lis'
     'body': 'list-style: ${1:square} ${2:inside} ${4:url(\'${3:list.png}\')}$0'
@@ -311,6 +314,9 @@
   'width':
     'prefix': 'wid'
     'body': 'width: ${2:${1:1}px}$0'
+  'width: auto':
+    'prefix': 'wida'
+    'body': 'width: auto$0'
   'z-index':
     'prefix': 'zi'
     'body': 'z-index: ${1:1}$0'
@@ -464,8 +470,11 @@
     'prefix': 'fwb'
     'body': 'font-weight: normal;$0'
   'height':
-    'prefix': 'he'
+    'prefix': 'hei'
     'body': 'height: ${2:${1:1}px};$0'
+  'height: auto':
+    'prefix': 'heia'
+    'body': 'height: auto;$0'
   'list-style':
     'prefix': 'lis'
     'body': 'list-style: ${1:square} ${2:inside} ${4:url(\'${3:list.png}\')};$0'
@@ -628,6 +637,9 @@
   'width':
     'prefix': 'wid'
     'body': 'width: ${2:${1:1}px};$0'
+  'width: auto':
+    'prefix': 'wida'
+    'body': 'width: auto;$0'
   'z-index':
     'prefix': 'zi'
     'body': 'z-index: ${1:1};$0'
