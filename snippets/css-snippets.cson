@@ -101,6 +101,9 @@
   'display: none':
     'prefix': 'disn'
     'body': 'display: none$0'
+  'fill':
+    'prefix': 'fill'
+    'body': 'fill: ${1:#${2:000000}}$0'
   'float':
     'prefix': 'fl'
     'body': 'float: ${1:left}$0'
@@ -424,6 +427,9 @@
   'display: none':
     'prefix': 'disn'
     'body': 'display: none;$0'
+  'fill':
+    'prefix': 'fill'
+    'body': 'fill: ${1:#${2:000000}};$0'
   'float':
     'prefix': 'fl'
     'body': 'float: ${1:left};$0'
