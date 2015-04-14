@@ -252,7 +252,7 @@
     'prefix': 'poss'
     'body': 'position: static$0'
   'right':
-    'prefix': 'ri'
+    'prefix': 'rig'
     'body': 'right: ${1:0}$0'
   'text-align':
     'prefix': 'ta'
@@ -578,7 +578,7 @@
     'prefix': 'poss'
     'body': 'position: static;$0'
   'right':
-    'prefix': 'ri'
+    'prefix': 'rig'
     'body': 'right: ${1:0};$0'
   'text-align':
     'prefix': 'ta'
