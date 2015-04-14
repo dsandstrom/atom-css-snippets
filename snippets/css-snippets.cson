@@ -31,43 +31,43 @@
     'body': 'background-repeat: no-repeat$0'
   'border':
     'prefix': 'bor'
-    'body': 'border: ${2:${1:1}px} ${3:solid} ${5:#${4:000}}$0'
+    'body': 'border: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
   'border-color':
     'prefix': 'borc'
-    'body': 'border-color: ${2:#${1:000}}$0'
+    'body': 'border-color: ${1:#${2:000}}$0'
   'border-style':
     'prefix': 'bors'
     'body': 'border-style: ${3:solid}$0'
   'border-width':
     'prefix': 'borw'
-    'body': 'border-width: ${2:${1:1}px}$0'
+    'body': 'border-width: ${1:1}${2:px}$0'
   'border-bottom':
     'prefix': 'borb'
-    'body': 'border-bottom: ${2:${1:1}px} ${3:solid} ${5:#${4:000}}$0'
+    'body': 'border-bottom: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
   'border-bottom-width':
     'prefix': 'borbw'
-    'body': 'border-bottom-width: ${2:${1:1}px}$0'
+    'body': 'border-bottom-width: ${1:1}${2:px}}$0'
   'border-left':
     'prefix': 'borl'
-    'body': 'border-left: ${2:${1:1}px} ${3:solid} ${5:#${4:000}}$0'
+    'body': 'border-left: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
   'border-left-width':
     'prefix': 'borlw'
-    'body': 'border-left-width: ${2:${1:1}px}$0'
+    'body': 'border-left-width: ${1:1}${2:px}$0'
   'border-right':
     'prefix': 'borr'
-    'body': 'border-right: ${2:${1:1}px} ${3:solid} ${5:#${4:000}}$0'
+    'body': 'border-right: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
   'border-right-width':
     'prefix': 'borrw'
-    'body': 'border-right-width: ${2:${1:1}px}$0'
+    'body': 'border-right-width: ${1:1}${2:px}$0'
   'border-top':
     'prefix': 'bort'
-    'body': 'border-top: ${2:${1:1}px} ${3:solid} ${5:#${4:000}}$0'
+    'body': 'border-top: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
   'border-top-width':
     'prefix': 'bortw'
-    'body': 'border-top-width: ${2:${1:1}px}$0'
+    'body': 'border-top-width: ${1:1}${2:px}$0'
   'border-radius':
     'prefix': 'br'
-    'body': 'border-radius: ${2:${1:1}px}$0'
+    'body': 'border-radius: ${1:${2:1}${3:px}}$0'
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0}$0'
@@ -121,7 +121,7 @@
     'body': 'font-family: ${1:arial}$0'
   'font-size':
     'prefix': 'fs'
-    'body': 'font-size: ${2:${1:1}px}$0'
+    'body': 'font-size: ${1:${2:1}${3:px}}$0'
   'font-style':
     'prefix': 'fst'
     'body': 'font-style: ${1:italic}$0'
@@ -140,18 +140,15 @@
   'font-weight: bold':
     'prefix': 'fwb'
     'body': 'font-weight: bold$0'
-  'font-weight: bolder':
-    'prefix': 'fwbb'
-    'body': 'font-weight: bolder$0'
-  'font-weight: lighter':
+  'font-weight: light':
     'prefix': 'fwl'
-    'body': 'font-weight: lighter$0'
+    'body': 'font-weight: light$0'
   'font-weight: normal':
-    'prefix': 'fwb'
+    'prefix': 'fwn'
     'body': 'font-weight: normal$0'
   'height':
     'prefix': 'hei'
-    'body': 'height: ${2:${1:1}px}$0'
+    'body': 'height: ${1:${2:1}${3:px}}$0'
   'height: auto':
     'prefix': 'heia'
     'body': 'height: auto$0'
@@ -184,28 +181,28 @@
     'body': 'left: ${1:0}$0'
   'line-height':
     'prefix': 'lh'
-    'body': 'line-height: ${1:${2:1}em}$0'
+    'body': 'line-height: ${1:${2:1}${3:em}}$0'
   'letter-spacing':
     'prefix': 'ls'
-    'body': 'letter-spacing: ${2:${1:1}px}$0'
+    'body': 'letter-spacing: ${1:${2:1}${3:px}}$0'
   'letter-spacing: normal':
     'prefix': 'lsn'
     'body': 'letter-spacing: normal$0'
   'margin':
     'prefix': 'mar'
-    'body': 'margin: ${2:${1:1}px}$0'
+    'body': 'margin: ${1:${2:1}${3:px}}$0'
   'margin-bottom':
     'prefix': 'marb'
-    'body': 'margin-bottom: ${2:${1:1}px}$0'
+    'body': 'margin-bottom: ${1:${2:1}${3:px}}$0'
   'margin-left':
     'prefix': 'marl'
-    'body': 'margin-left: ${2:${1:1}px}$0'
+    'body': 'margin-left: ${1:${2:1}${3:px}}$0'
   'margin-right':
     'prefix': 'marr'
-    'body': 'margin-right: ${2:${1:1}px}$0'
+    'body': 'margin-right: ${1:${2:1}${3:px}}$0'
   'margin-top':
     'prefix': 'mart'
-    'body': 'margin-top: ${2:${1:1}px}$0'
+    'body': 'margin-top: ${1:${2:1}${3:px}}$0'
   'overflow':
     'prefix': 'ov'
     'body': 'overflow: ${1:hidden}$0'
@@ -223,19 +220,19 @@
     'body': 'overflow: visible$0'
   'padding':
     'prefix': 'pad'
-    'body': 'padding: ${2:${1:1}px}$0'
+    'body': 'padding: ${1:${2:1}${3:px}}$0'
   'padding-bottom':
     'prefix': 'padb'
-    'body': 'padding-bottom: ${2:${1:1}px}$0'
+    'body': 'padding-bottom: ${1:${2:1}${3:px}}$0'
   'padding-left':
     'prefix': 'padl'
-    'body': 'padding-left: ${2:${1:1}px}$0'
+    'body': 'padding-left: ${1:${2:1}${3:px}}$0'
   'padding-right':
     'prefix': 'padr'
-    'body': 'padding-right: ${2:${1:1}px}$0'
+    'body': 'padding-right: ${1:${2:1}${3:px}}$0'
   'padding-top':
     'prefix': 'padt'
-    'body': 'padding-top: ${2:${1:1}px}$0'
+    'body': 'padding-top: ${1:${2:1}${3:px}}$0'
   'position':
     'prefix': 'pos'
     'body': 'position: ${1:relative}$0'
@@ -319,7 +316,7 @@
     'body': 'white-space: pre$0'
   'width':
     'prefix': 'wid'
-    'body': 'width: ${2:${1:1}px}$0'
+    'body': 'width: ${1:${2:1}${3:px}}$0'
   'width: auto':
     'prefix': 'wida'
     'body': 'width: auto$0'
@@ -360,43 +357,43 @@
     'body': 'background-repeat: no-repeat;$0'
   'border':
     'prefix': 'bor'
-    'body': 'border: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+    'body': 'border: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
   'border-color':
     'prefix': 'borc'
-    'body': 'border-color: ${2:#${1:000}};$0'
+    'body': 'border-color: ${1:#${2:000}};$0'
   'border-style':
     'prefix': 'bors'
     'body': 'border-style: ${3:solid};$0'
   'border-width':
     'prefix': 'borw'
-    'body': 'border-width: ${2:${1:1}px};$0'
+    'body': 'border-width: ${1:1}${2:px};$0'
   'border-bottom':
     'prefix': 'borb'
-    'body': 'border-bottom: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+    'body': 'border-bottom: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
   'border-bottom-width':
     'prefix': 'borbw'
-    'body': 'border-bottom-width: ${2:${1:1}px};$0'
+    'body': 'border-bottom-width: ${1:1}${2:px};$0'
   'border-left':
     'prefix': 'borl'
-    'body': 'border-left: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+    'body': 'border-left: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
   'border-left-width':
     'prefix': 'borlw'
-    'body': 'border-left-width: ${2:${1:1}px};$0'
+    'body': 'border-left-width: ${1:1}${2:px};$0'
   'border-right':
     'prefix': 'borr'
-    'body': 'border-right: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+    'body': 'border-right: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
   'border-right-width':
     'prefix': 'borrw'
-    'body': 'border-right-width: ${2:${1:1}px};$0'
+    'body': 'border-right-width: ${1:1}${2:px};$0'
   'border-top':
     'prefix': 'bort'
-    'body': 'border-top: ${2:${1:1}px} ${3:solid} ${5:#${4:000}};$0'
+    'body': 'border-top: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
   'border-top-width':
     'prefix': 'bortw'
-    'body': 'border-top-width: ${2:${1:1}px};$0'
+    'body': 'border-top-width: ${1:1}${2:px};$0'
   'border-radius':
     'prefix': 'br'
-    'body': 'border-radius: ${2:${1:1}px};$0'
+    'body': 'border-radius: ${1:${2:1}${3:px}};$0'
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0};$0'
@@ -450,7 +447,7 @@
     'body': 'font-family: ${1:arial};$0'
   'font-size':
     'prefix': 'fs'
-    'body': 'font-size: ${2:${1:1}px};$0'
+    'body': 'font-size: ${1:${2:1}${3:px}};$0'
   'font-style':
     'prefix': 'fst'
     'body': 'font-style: ${1:italic};$0'
@@ -469,18 +466,15 @@
   'font-weight: bold':
     'prefix': 'fwb'
     'body': 'font-weight: bold;$0'
-  'font-weight: bolder':
-    'prefix': 'fwbb'
-    'body': 'font-weight: bolder;$0'
-  'font-weight: lighter':
+  'font-weight: light':
     'prefix': 'fwl'
-    'body': 'font-weight: lighter;$0'
+    'body': 'font-weight: light;$0'
   'font-weight: normal':
-    'prefix': 'fwb'
+    'prefix': 'fwn'
     'body': 'font-weight: normal;$0'
   'height':
     'prefix': 'hei'
-    'body': 'height: ${2:${1:1}px};$0'
+    'body': 'height: ${1:${2:1}${3:px}};$0'
   'height: auto':
     'prefix': 'heia'
     'body': 'height: auto;$0'
@@ -513,28 +507,28 @@
     'body': 'left: ${1:0};$0'
   'line-height':
     'prefix': 'lh'
-    'body': 'line-height: ${1:${2:1}em};$0'
+    'body': 'line-height: ${1:${2:1}${3:em}};$0'
   'letter-spacing':
     'prefix': 'ls'
-    'body': 'letter-spacing: ${2:${1:1}px};$0'
+    'body': 'letter-spacing: ${1:${2:1}${3:px}};$0'
   'letter-spacing: normal':
     'prefix': 'lsn'
     'body': 'letter-spacing: normal;$0'
   'margin':
     'prefix': 'mar'
-    'body': 'margin: ${2:${1:1}px};$0'
+    'body': 'margin: ${1:${2:1}${3:px}};$0'
   'margin-bottom':
     'prefix': 'marb'
-    'body': 'margin-bottom: ${2:${1:1}px};$0'
+    'body': 'margin-bottom: ${1:${2:1}${3:px}};$0'
   'margin-left':
     'prefix': 'marl'
-    'body': 'margin-left: ${2:${1:1}px};$0'
+    'body': 'margin-left: ${1:${2:1}${3:px}};$0'
   'margin-right':
     'prefix': 'marr'
-    'body': 'margin-right: ${2:${1:1}px};$0'
+    'body': 'margin-right: ${1:${2:1}${3:px}};$0'
   'margin-top':
     'prefix': 'mart'
-    'body': 'margin-top: ${2:${1:1}px};$0'
+    'body': 'margin-top: ${1:${2:1}${3:px}};$0'
   'overflow':
     'prefix': 'ov'
     'body': 'overflow: ${1:hidden};$0'
@@ -552,19 +546,19 @@
     'body': 'overflow: visible;$0'
   'padding':
     'prefix': 'pad'
-    'body': 'padding: ${2:${1:1}px};$0'
+    'body': 'padding: ${1:${2:1}${3:px}};$0'
   'padding-bottom':
     'prefix': 'padb'
-    'body': 'padding-bottom: ${2:${1:1}px};$0'
+    'body': 'padding-bottom: ${1:${2:1}${3:px}};$0'
   'padding-left':
     'prefix': 'padl'
-    'body': 'padding-left: ${2:${1:1}px};$0'
+    'body': 'padding-left: ${1:${2:1}${3:px}};$0'
   'padding-right':
     'prefix': 'padr'
-    'body': 'padding-right: ${2:${1:1}px};$0'
+    'body': 'padding-right: ${1:${2:1}${3:px}};$0'
   'padding-top':
     'prefix': 'padt'
-    'body': 'padding-top: ${2:${1:1}px};$0'
+    'body': 'padding-top: ${1:${2:1}${3:px}};$0'
   'position':
     'prefix': 'pos'
     'body': 'position: ${1:relative};$0'
@@ -648,7 +642,7 @@
     'body': 'white-space: pre;$0'
   'width':
     'prefix': 'wid'
-    'body': 'width: ${2:${1:1}px};$0'
+    'body': 'width: ${1:${2:1}${3:px}};$0'
   'width: auto':
     'prefix': 'wida'
     'body': 'width: auto;$0'
