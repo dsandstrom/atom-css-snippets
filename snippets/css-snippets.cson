@@ -110,6 +110,9 @@
   'float: right':
     'prefix': 'flr'
     'body': 'float: right$0'
+  'float: none':
+    'prefix': 'fln'
+    'body': 'float: none$0'
   'font-family':
     'prefix': 'ff'
     'body': 'font-family: ${1:arial}$0'
@@ -424,6 +427,9 @@
   'float: right':
     'prefix': 'flr'
     'body': 'float: right;$0'
+  'float: none':
+    'prefix': 'fln'
+    'body': 'float: none;$0'
   'font-family':
     'prefix': 'ff'
     'body': 'font-family: ${1:arial};$0'
