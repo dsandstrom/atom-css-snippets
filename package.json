@@ -3,6 +3,13 @@
   "main": "./lib/main",
   "version": "0.6.0",
   "description": "CSS, SCSS, Sass, and Less Snippets",
+  "keywords": [
+    "snippets",
+    "css",
+    "less",
+    "scss",
+    "sass"
+  ],
   "activationCommands": {},
   "repository": "https://github.com/dsandstrom/atom-css-snippets",
   "license": "MIT",

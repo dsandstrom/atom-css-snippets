@@ -1,3 +1,6 @@
+## 0.7.0 - 4-14-15
+* Add package keywords
+
 ## 0.6.0 - 4-14-15
 * Add vertical-align: middle, fill, width/height: auto, float: none
 * Make height's prefix more consistent
