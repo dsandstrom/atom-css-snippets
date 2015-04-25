@@ -31,7 +31,7 @@
     'body': 'background-repeat: no-repeat$0'
   'border':
     'prefix': 'bor'
-    'body': 'border: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
+    'body': 'border: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}}$0'
   'border-color':
     'prefix': 'borc'
     'body': 'border-color: ${1:#${2:000}}$0'
@@ -40,31 +40,31 @@
     'body': 'border-style: ${3:solid}$0'
   'border-width':
     'prefix': 'borw'
-    'body': 'border-width: ${1:1}${2:px}$0'
+    'body': 'border-width: ${1:${2:1}${3:px}}$0'
   'border-bottom':
     'prefix': 'borb'
-    'body': 'border-bottom: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
+    'body': 'border-bottom: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}}$0'
   'border-bottom-width':
     'prefix': 'borbw'
-    'body': 'border-bottom-width: ${1:1}${2:px}}$0'
+    'body': 'border-bottom-width: ${1:${2:1}${3:px}}}$0'
   'border-left':
     'prefix': 'borl'
-    'body': 'border-left: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
+    'body': 'border-left: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}}$0'
   'border-left-width':
     'prefix': 'borlw'
-    'body': 'border-left-width: ${1:1}${2:px}$0'
+    'body': 'border-left-width: ${1:${2:1}${3:px}}$0'
   'border-right':
     'prefix': 'borr'
-    'body': 'border-right: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
+    'body': 'border-right: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}}$0'
   'border-right-width':
     'prefix': 'borrw'
-    'body': 'border-right-width: ${1:1}${2:px}$0'
+    'body': 'border-right-width: ${1:${2:1}${3:px}}$0'
   'border-top':
     'prefix': 'bort'
-    'body': 'border-top: ${1:1}${2:px} ${3:solid} ${4:#${5:000}}$0'
+    'body': 'border-top: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}}$0'
   'border-top-width':
     'prefix': 'bortw'
-    'body': 'border-top-width: ${1:1}${2:px}$0'
+    'body': 'border-top-width: ${1:${2:1}${3:px}}$0'
   'border-radius':
     'prefix': 'br'
     'body': 'border-radius: ${1:${2:1}${3:px}}$0'
@@ -357,7 +357,7 @@
     'body': 'background-repeat: no-repeat;$0'
   'border':
     'prefix': 'bor'
-    'body': 'border: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
+    'body': 'border: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};$0'
   'border-color':
     'prefix': 'borc'
     'body': 'border-color: ${1:#${2:000}};$0'
@@ -366,31 +366,31 @@
     'body': 'border-style: ${3:solid};$0'
   'border-width':
     'prefix': 'borw'
-    'body': 'border-width: ${1:1}${2:px};$0'
+    'body': 'border-width: ${1:${2:1}${3:px}};$0'
   'border-bottom':
     'prefix': 'borb'
-    'body': 'border-bottom: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
+    'body': 'border-bottom: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};$0'
   'border-bottom-width':
     'prefix': 'borbw'
-    'body': 'border-bottom-width: ${1:1}${2:px};$0'
+    'body': 'border-bottom-width: ${1:${2:1}${3:px}};$0'
   'border-left':
     'prefix': 'borl'
-    'body': 'border-left: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
+    'body': 'border-left: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};$0'
   'border-left-width':
     'prefix': 'borlw'
-    'body': 'border-left-width: ${1:1}${2:px};$0'
+    'body': 'border-left-width: ${1:${2:1}${3:px}};$0'
   'border-right':
     'prefix': 'borr'
-    'body': 'border-right: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
+    'body': 'border-right: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};$0'
   'border-right-width':
     'prefix': 'borrw'
-    'body': 'border-right-width: ${1:1}${2:px};$0'
+    'body': 'border-right-width: ${1:${2:1}${3:px}};$0'
   'border-top':
     'prefix': 'bort'
-    'body': 'border-top: ${1:1}${2:px} ${3:solid} ${4:#${5:000}};$0'
+    'body': 'border-top: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};$0'
   'border-top-width':
     'prefix': 'bortw'
-    'body': 'border-top-width: ${1:1}${2:px};$0'
+    'body': 'border-top-width: ${1:${2:1}${3:px}};$0'
   'border-radius':
     'prefix': 'br'
     'body': 'border-radius: ${1:${2:1}${3:px}};$0'
