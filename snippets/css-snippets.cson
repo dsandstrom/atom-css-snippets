@@ -203,6 +203,12 @@
   'margin-top':
     'prefix': 'mart'
     'body': 'margin-top: ${1:${2:1}${3:px}}$0'
+  'min-height':
+    'prefix': 'mh'
+    'body': 'min-height: ${1:${2:1}${3:px}}$0'
+  'min-width':
+    'prefix': 'mw'
+    'body': 'min-width: ${1:${2:1}${3:px}}$0'
   'overflow':
     'prefix': 'ov'
     'body': 'overflow: ${1:hidden}$0'
@@ -532,6 +538,12 @@
   'margin-top':
     'prefix': 'mart'
     'body': 'margin-top: ${1:${2:1}${3:px}};$0'
+  'min-height':
+    'prefix': 'mh'
+    'body': 'min-height: ${1:${2:1}${3:px}};$0'
+  'min-width':
+    'prefix': 'mw'
+    'body': 'min-width: ${1:${2:1}${3:px}};$0'
   'overflow':
     'prefix': 'ov'
     'body': 'overflow: ${1:hidden};$0'
