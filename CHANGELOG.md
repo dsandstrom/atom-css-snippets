@@ -1,3 +1,6 @@
+## 0.9.0 - 8-20-15
+* Add min-height, min-width, display flex, content, & alternative left
+
 ## 0.8.0 - 4-25-15
 * Make border radius width values consistent with other snippet types
 * Add background size
