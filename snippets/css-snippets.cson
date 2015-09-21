@@ -77,6 +77,9 @@
   'color':
     'prefix': 'col'
     'body': 'color: ${1:#${2:000000}}$0'
+  'content':
+    'prefix': 'con'
+    'body': "content: '$1'$0"
   'cursor':
     'prefix': 'cur'
     'body': 'cursor: ${1:pointer}$0'
@@ -415,6 +418,9 @@
   'color':
     'prefix': 'col'
     'body': 'color: ${1:#${2:000000}};$0'
+  'content':
+    'prefix': 'con'
+    'body': "content: '$1';$0"
   'cursor':
     'prefix': 'cur'
     'body': 'cursor: ${1:pointer};$0'
