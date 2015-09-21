@@ -185,6 +185,9 @@
   'left':
     'prefix': 'left'
     'body': 'left: ${1:0}$0'
+  'left (shorthand)':
+    'prefix': 'lef'
+    'body': 'left: ${1:0}$0'
   'line-height':
     'prefix': 'lh'
     'body': 'line-height: ${1:${2:1}${3:em}}$0'
@@ -525,6 +528,9 @@
     'body': 'list-style-type: upper-roman;$0'
   'left':
     'prefix': 'left'
+    'body': 'left: ${1:0};$0'
+  'left (shorthand)':
+    'prefix': 'lef'
     'body': 'left: ${1:0};$0'
   'line-height':
     'prefix': 'lh'
