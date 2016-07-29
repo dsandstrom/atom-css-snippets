@@ -71,6 +71,9 @@
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0}$0'
+  'box-shadow':
+    'prefix': 'boxs'
+    'body': 'box-shadow: ${1:0px} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0,0,0,.5)};$0     // h-length, v-length, blur, spread, colour'
   'clear':
     'prefix': 'clr'
     'body': 'clear: ${1:both}$0'
@@ -415,6 +418,9 @@
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0};$0'
+  'box-shadow':
+    'prefix': 'boxs'
+    'body': 'box-shadow: ${1:0px} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0,0,0,.5)};$0     // h-length, v-length, blur, spread, colour'
   'clear':
     'prefix': 'clr'
     'body': 'clear: ${1:both};$0'
