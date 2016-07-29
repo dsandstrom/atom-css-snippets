@@ -221,6 +221,12 @@
   'min-width':
     'prefix': 'mw'
     'body': 'min-width: ${1:${2:1}${3:px}}'
+  'max-height':
+    'prefix': 'maxh'
+    'body': 'max-height: ${1:${2:1}${3:px}}'
+  'max-width':
+    'prefix': 'maxw'
+    'body': 'max-width: ${1:${2:1}${3:px}}'
   'overflow':
     'prefix': 'ov'
     'body': 'overflow: ${1:hidden}'
@@ -568,6 +574,12 @@
   'min-width':
     'prefix': 'mw'
     'body': 'min-width: ${1:${2:1}${3:px}};'
+  'max-height':
+    'prefix': 'maxh'
+    'body': 'max-height: ${1:${2:1}${3:px}}'
+  'max-width':
+    'prefix': 'maxw'
+    'body': 'max-width: ${1:${2:1}${3:px}}'
   'overflow':
     'prefix': 'ov'
     'body': 'overflow: ${1:hidden};'
