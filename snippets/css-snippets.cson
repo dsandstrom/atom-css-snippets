@@ -75,7 +75,7 @@
     'prefix': 'bs'
     'body': """
         // h-length, v-length, blur, spread, colour
-        box-shadow: ${1:0} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0, 0, 0, .5)}$0
+        box-shadow: ${1:0} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0, 0, 0, .5)}
     """
   'clear':
     'prefix': 'clr'
@@ -431,7 +431,7 @@
     'prefix': 'bs'
     'body': """
         // h-length, v-length, blur, spread, colour
-        box-shadow: ${1:0} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0, 0, 0, .5)}$0
+        box-shadow: ${1:0} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0, 0, 0, .5)};
     """
   'clear':
     'prefix': 'clr'
