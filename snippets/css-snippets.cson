@@ -72,8 +72,11 @@
     'prefix': 'bot'
     'body': 'bottom: ${1:0}'
   'box-shadow':
-    'prefix': 'boxs'
-    'body': 'box-shadow: ${1:0px} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0,0,0,.5)};$0     // h-length, v-length, blur, spread, colour'
+    'prefix': 'bs'
+    'body': """
+        // h-length, v-length, blur, spread, colour
+        box-shadow: ${1:0} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0, 0, 0, .5)}$0
+    """
   'clear':
     'prefix': 'clr'
     'body': 'clear: ${1:both}'
@@ -216,16 +219,16 @@
     'prefix': 'mart'
     'body': 'margin-top: ${1:${2:1}${3:px}}'
   'min-height':
-    'prefix': 'mh'
+    'prefix': 'mih'
     'body': 'min-height: ${1:${2:1}${3:px}}'
   'min-width':
-    'prefix': 'mw'
+    'prefix': 'miw'
     'body': 'min-width: ${1:${2:1}${3:px}}'
   'max-height':
-    'prefix': 'maxh'
+    'prefix': 'mah'
     'body': 'max-height: ${1:${2:1}${3:px}}'
   'max-width':
-    'prefix': 'maxw'
+    'prefix': 'maw'
     'body': 'max-width: ${1:${2:1}${3:px}}'
   'overflow':
     'prefix': 'ov'
@@ -425,8 +428,11 @@
     'prefix': 'bot'
     'body': 'bottom: ${1:0};'
   'box-shadow':
-    'prefix': 'boxs'
-    'body': 'box-shadow: ${1:0px} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0,0,0,.5)};$0     // h-length, v-length, blur, spread, colour'
+    'prefix': 'bs'
+    'body': """
+        // h-length, v-length, blur, spread, colour
+        box-shadow: ${1:0} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0, 0, 0, .5)}$0
+    """
   'clear':
     'prefix': 'clr'
     'body': 'clear: ${1:both};'
@@ -569,17 +575,17 @@
     'prefix': 'mart'
     'body': 'margin-top: ${1:${2:1}${3:px}};'
   'min-height':
-    'prefix': 'mh'
+    'prefix': 'mih'
     'body': 'min-height: ${1:${2:1}${3:px}};'
   'min-width':
-    'prefix': 'mw'
+    'prefix': 'miw'
     'body': 'min-width: ${1:${2:1}${3:px}};'
   'max-height':
-    'prefix': 'maxh'
-    'body': 'max-height: ${1:${2:1}${3:px}}'
+    'prefix': 'mah'
+    'body': 'max-height: ${1:${2:1}${3:px}};'
   'max-width':
-    'prefix': 'maxw'
-    'body': 'max-width: ${1:${2:1}${3:px}}'
+    'prefix': 'maw'
+    'body': 'max-width: ${1:${2:1}${3:px}};'
   'overflow':
     'prefix': 'ov'
     'body': 'overflow: ${1:hidden};'
