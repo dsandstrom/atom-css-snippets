@@ -71,6 +71,16 @@
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0}'
+  'box':
+    'prefix': 'box'
+    'body': """
+      position: ${1:absolute}
+      top: ${2:0}
+      right: ${3:0}
+      bottom: ${4:0}
+      left: ${5:0}
+      content: ''
+    """
   'box-shadow':
     'prefix': 'bs'
     'body': """
@@ -218,6 +228,9 @@
   'margin-top':
     'prefix': 'mart'
     'body': 'margin-top: ${1:${2:1}${3:px}}'
+  'margin: 0 auto':
+    'prefix': 'mara'
+    'body': 'margin: 0 auto'
   'min-height':
     'prefix': 'mih'
     'body': 'min-height: ${1:${2:1}${3:px}}'
@@ -350,6 +363,9 @@
   'z-index':
     'prefix': 'zi'
     'body': 'z-index: ${1:1}'
+  '@media':
+    'prefix': 'med'
+    'body': '@media $1 {\n  $2\n}'
 
 '.source.css, .source.scss, .source.css.scss, .source.less, .source.css.less':
   'background':
@@ -427,6 +443,16 @@
   'bottom':
     'prefix': 'bot'
     'body': 'bottom: ${1:0};'
+  'box':
+    'prefix': 'box'
+    'body': """
+      position: ${1:absolute};
+      top: ${2:0};
+      right: ${3:0};
+      bottom: ${4:0};
+      left: ${5:0};
+      content: '';
+    """
   'box-shadow':
     'prefix': 'bs'
     'body': """
@@ -574,6 +600,9 @@
   'margin-top':
     'prefix': 'mart'
     'body': 'margin-top: ${1:${2:1}${3:px}};'
+  'margin: 0 auto':
+    'prefix': 'mara'
+    'body': 'margin: 0 auto;'
   'min-height':
     'prefix': 'mih'
     'body': 'min-height: ${1:${2:1}${3:px}};'
@@ -706,6 +735,9 @@
   'z-index':
     'prefix': 'zi'
     'body': 'z-index: ${1:1};'
+  '@media':
+    'prefix': 'med'
+    'body': '@media $1 {\n  $2\n}'
 
 '.source.css, .source.scss, .source.css.scss, .source.less, .source.css.less, .source.sass, .source.css.sass':
   '!important':
