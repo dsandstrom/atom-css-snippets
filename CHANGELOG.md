@@ -1,19 +1,23 @@
+## 1.0.0 - unreleased
+* Added box (absolute postioned box), margin auto, @media, @import, @include, @mixin, align-items, flex, flex-direction, justify-content, & order
+* Added alternative !important using `i`
+
 ## 0.10.0 - 8-5-16
-* Remove $0 from the end of snippets
-* Add box-shadow, max-height, max-width
+* Removed $0 from the end of snippets
+* Added box-shadow, max-height, & max-width
 
 ## 0.9.0 - 8-20-15
-* Add min-height, min-width, display flex, content, & alternative left
+* Added min-height, min-width, display flex, content, & alternative left
 
 ## 0.8.0 - 4-25-15
 * Make border radius width values consistent with other snippet types
-* Add background size
+* Added background size
 
 ## 0.7.0 - 4-14-15
-* Add package keywords
+* Added package keywords
 
 ## 0.6.0 - 4-14-15
-* Add vertical-align: middle, fill, width/height: auto, float: none
+* Added vertical-align: middle, fill, width/height: auto, float: none
 * Make height's prefix more consistent
 * Move breakpoints around to support my workflow better
 
