@@ -432,6 +432,9 @@
   '!important':
     'prefix': '!'
     'body': '!important'
+  '!important (alt)':
+    'prefix': 'i'
+    'body': '!important'
 
 '.source.css, .source.scss, .source.css.scss, .source.less, .source.css.less':
   'align-items':
@@ -869,4 +872,7 @@
     'body': '@mixin ${1:name} {\n  $2\n}'
   '!important':
     'prefix': '!'
+    'body': '!important'
+  '!important (alt)':
+    'prefix': 'i'
     'body': '!important'
