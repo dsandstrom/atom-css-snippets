@@ -1,3 +1,7 @@
+## 0.10.0 - 8-5-16
+* Remove $0 from the end of snippets
+* Add box-shadow, max-height, max-width
+
 ## 0.9.0 - 8-20-15
 * Add min-height, min-width, display flex, content, & alternative left
 
