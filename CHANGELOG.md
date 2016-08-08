@@ -1,4 +1,4 @@
-## 1.0.0 - unreleased
+## 1.0.0 - 8-8-16
 * Added box (absolute postioned box), margin auto, @media, @import, @include, @mixin, align-items, flex, flex-direction, justify-content, & order
 * Added alternative !important using `i`
 
