@@ -186,9 +186,9 @@
   'font-style: normal':
     'prefix': 'fstn'
     'body': 'font-style: normal'
-  'font-style: bold':
-    'prefix': 'fstb'
-    'body': 'font-style: bold'
+  'font-style: oblique':
+    'prefix': 'fsto'
+    'body': 'font-style: oblique'
   'font-weight':
     'prefix': 'fw'
     'body': 'font-weight: ${1:bold}'
@@ -627,9 +627,9 @@
   'font-style: normal':
     'prefix': 'fstn'
     'body': 'font-style: normal;'
-  'font-style: bold':
-    'prefix': 'fstb'
-    'body': 'font-style: bold;'
+  'font-style: oblique':
+    'prefix': 'fsto'
+    'body': 'font-style: oblique;'
   'font-weight':
     'prefix': 'fw'
     'body': 'font-weight: ${1:bold};'
